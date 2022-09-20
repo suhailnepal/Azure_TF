@@ -26,7 +26,3 @@ resource "azurerm_linux_virtual_machine" "suhail_vm" {
     environment = "dev"
   }
 }
-
-output "public_ip_address" {
-  value = "${azurerm_linux_virtual_machine.suhail_vm.name}: ${data.azurerm_public_ip.suhail_ip_data.ip_address}"
-}
