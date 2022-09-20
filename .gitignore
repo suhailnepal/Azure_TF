@@ -1,0 +1,7 @@
+.terraform*
+
+terraform.tfstate*
+
+terraform.tfvars
+
+windows_ssh_script.tpl
